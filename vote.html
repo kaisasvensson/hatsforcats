@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Kaisa Svensson</title>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+<body>
+
+  <header>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+              aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="vote.html">VOTE!</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+  <h1 class="headline">   Take a look at these paw-some cats, <br>  here are the nominees how have been nominated for the cat in a hat of the year award.<br> click the pics for more info.</h1>
+
+  <div class="gallery">
+    <div class="row">
+
+      <a data-popup-open="popup-1" href="#">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <img class="img-responsive" src="bilder/cat-1.jpg" alt="sylvester">
+          </a>
+        <div class="vote"><a data-popup-open="popup-vote" href="#"><img src="bilder/icon.jpg"></a></div>
+      </div>
+
+      <a data-popup-open="popup-2" href="#">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <img class="img-responsive" src="bilder/cat-2.jpg" alt="Morris">
+          </a>
+      <div class="vote"> <a data-popup-open="popup-vote" href="#"><img src="bilder/icon.jpg"></a></div></div>
+
+      <a data-popup-open="popup-3" href="#">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <img class="img-responsive" src="bilder/kitty.jpeg" alt="figaro">
+          </a>
+        <div class="vote"> <a data-popup-open="popup-vote" href="#"><img src="bilder/icon.jpg"></a></div></div>
+
+      <a data-popup-open="popup-4" href="#">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <img class="img-responsive" src="bilder/angrycat.jpg" alt="The Gunilla aka tusse">
+          </a>
+        <div class="vote"> <a data-popup-open="popup-vote" href="#"><img src="bilder/icon.jpg"></a></div></div>
+
+      <a data-popup-open="popup-5" href="#">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <img class="img-responsive" src="bilder/cat-5.png" alt="peppermint patty">
+          </a>
+       <div class="vote"> <a data-popup-open="popup-vote" href="#"><img src="bilder/icon.jpg"></a></div></div>
+
+      <a data-popup-open="popup-6" href="#">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <img class="img-responsive" src="bilder/cat-8.jpg" alt="charlie chaplin" >
+          </a>
+        <div class="vote">
+          <a data-popup-open="popup-vote" href="#"><img src="bilder/icon.jpg"></a></div></div>
+
+    </div>
+  </div>
+
+<!--      POPUP FÖR RÖSTNINGSKNAPP     -->
+
+<a data-popup-open="popup-vote" href="#"></a>
+  <div class="popup" data-popup="popup-vote">
+    <div class="popup-inner">
+      <h2>Thank you for your vote!</h2>
+      <p><a class="popup-close" data-popup-close="popup-vote" href="#">Close</a></p>
+    </div>
+  </div>
+
+<!--        POPUP FÖR KATT NR 1      -->
+
+  <a data-popup-open="popup-1" href="#"></a>
+    <div class="popup" data-popup="popup-1">
+      <div class="popup-inner">
+        <h2>Sylvester</h2>
+        <p>This beautiful cat wearing a lovely fox hat with fox ears. He likes to stroll around with the hat because he loves
+        the attention.</p><br>
+        <p><strong>The Cats Magazine</strong>- "It's is probably the nicest hat this year, and definitely the comfiest!"</p>
+        <p><strong>CoverCats</strong> - "OMG so fancy hat and cat! Sylvester must be the winner!!"</p>
+      <p><a class="popup-close" data-popup-close="popup-1" href="#">Close</a></p>
+      </div>
+    </div>
+
+<!--      POPUP FÖR KATT NR 2    -->
+
+  <div class="popup" data-popup="popup-2">
+    <div class="popup-inner">
+      <h2>Morris</h2>
+        <p>This cat is wearing a decent and fabulous hat with a beautiful yellow ribbon, the cat owner likes to make the cat look
+        smart and proper. And he seems to like it! Morris is a british shorthair. </p>
+        <p><strong>Mjauge</strong> - “This cat is so classy in he’s cute hat! Hope he wins!”</p>
+        <p> <strong>Cat World</strong> - “This is a smart looking cat, this could be a great professor of the cat school in the
+        Cat World”</p>
+      <p><a class="popup-close" data-popup-close="popup-2" href="#">Close</a></p>
+    </div>
+  </div>
+
+<!--      POPUP FÖR KATT NR 3      -->
+
+  <div class="popup" data-popup="popup-3">
+    <div class="popup-inner">
+      <h2>Figaro</h2>
+        <p>This cat is wearing a knitted carrot hat, and it’s wonderful that it fits together with the beautiful color of the
+        cat. Figaro is a domestic cat that lives on a farm, maybe not the best camouflage if there is horses..</p>
+        <p><strong>Cute Cats Magazine</strong> - “This funny hat really fits Figaro, like he is born to be a carrot, but stay
+        away from the horses!! We love this cat hat , totally beautiful!”</p>
+        <p><strong>Catz</strong> - “Figaro seems like a decent winner of the year, with the awesome (or should we say paw-some)
+        carrot hat”</p>
+      <p><a class="popup-close" data-popup-close="popup-3" href="#">Close</a></p>
+    </div>
+  </div>
+
+<!--      POPUP FÖR KATT NR 4      -->
+
+  <div class="popup" data-popup="popup-4">
+    <div class="popup-inner">
+      <h2>The Gunilla aka “tusse”</h2>
+        <p>This cat is wearing a nice white cuddly bunny hat with a pink silks string around the neck. The name of the cat is
+        inspired from a character in the Swedish tv-show“Svenska hollywood fruar”. The Gunilla or Tusse is a Persian cat.</p>
+        <p><strong>Cat People Magazine</strong> - “This cat is so adorable in the bunny hat, maybe look a little bit angry.. Or
+        she’s just not always picture friendly. but still, totally fab! ”</p>
+        <p><strong>Cat Channel</strong> - “Tusse is our favorite cat of the year, hope she wins!”</p>
+      <p><a class="popup-close" data-popup-close="popup-4" href="#">Close</a></p>
+    </div>
+  </div>
+
+  <!--    POPUP FÖR KATT NR 5      -->
+
+  <div class="popup" data-popup="popup-5">
+    <div class="popup-inner">
+      <h2>Peppermint Patty</h2>
+        <p>this cat is wearing a knitted shark hat with two cute button eyes. Peppermint Patty is a domestic cat.</p>
+        <p><strong>Mordern Cat</strong> - “Peppermint Patty looks like she wants to eat that shark? This is our favourite cat
+        of the year because she looks so playful and cute. ” </p>
+     <p><a class="popup-close" data-popup-close="popup-5" href="#">Close</a></p>
+    </div>
+  </div>
+
+  <!--      POPUP FÖR KATT NR 6      -->
+
+  <div class="popup" data-popup="popup-6">
+    <div class="popup-inner">
+      <h2>Charlie Chaplin</h2>
+        <p>This cat is wearing a top hat and a bowtie, simple and elegant! He loves to walk around in the neighborhood like this,
+        because it makes him feel like he is on a higher standard than the other cats. Charlie is a domestic cat.</p>
+        <p><strong>C Magazine</strong> - “Look at this stunning cat, i bet he loves to go out and eat a fancy dinner with he’s
+        beautiful girlfriend. But I wounder, does he dance?”</p>
+        <p><strong>CatElle</strong> - “Charlie Chaplin is the best, we hope he win the contest!”</p>
+     <p><a class="popup-close" data-popup-close="popup-6" href="#">Close</a></p>
+    </div>
+  </div>
+
+<!-- FOOTER -->
+
+  <footer>
+    <div class="row">
+      <div class="col-md-4">
+        <p>Follow us on social media</p>
+        <div class="social">
+          <a href="https://www.facebook.com/"><img src="http://www.iconsdb.com/icons/preview/black/facebook-6-xxl.png"></a>
+          <a href="https://www.instagram.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Black_Instagram_icon.svg/2000px-Black_Instagram_icon.svg.png"></a>
+          <a href="https://twitter.com/?lang=sv"><img src="http://www.iconsdb.com/icons/preview/black/twitter-3-xxl.png"></a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <p> in cooperation with: <br>spcasweden,<br> regina cat rescue, <br>playfull kitty, <br> And Dennis avner</p>
+      </div>
+
+      <div class="col-md-4"><div class="kaisa"><img src="bilder/kaisa.jpg" alt="kaisa"></div>
+        <p>webpage made by Kaisa Svensson</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <!--awesom font-->
+  <script src="/path/to/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
